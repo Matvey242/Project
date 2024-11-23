@@ -1,0 +1,317 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: url(background.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.burgerblock {
+    height: 100%;
+    width: 15%;
+}
+
+.newburgerblock {
+    height: 100%;
+    width: 15%;
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(33, 32, 32);
+}
+
+.search1 {
+    width: 85%;
+    height: 30px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 12px;
+    border: 0px solid white;
+    outline: none;
+}
+
+.favorite1 {
+    width: 85%;
+    height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 12px;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selected1 {
+    width: 85%;
+    height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 12px;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 100%;
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.burgerline5 {
+    width: 85%;
+    height: 4px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 23px;
+}
+
+.music1 {
+    height: 100%;
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.line1 {
+    width: 0.6%;
+    height: 90%;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.name {
+    font-size: 35px;
+    color: white;
+    margin-left: 240px;
+}
+
+.play {
+    background: url(play.png);
+    width: 34%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+
+.b1 {
+    width: 80%;
+    height: 8%;
+    background-color: rgb(29, 28, 28);
+    border-radius: 15px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.b2 {
+    width: 80%;
+    height: 8%;
+    background-color: rgb(29, 28, 28);
+    border-radius: 15px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.b3 {
+    width: 80%;
+    height: 8%;
+    background-color: rgb(29, 28, 28);
+    border-radius: 15px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.b4 {
+    width: 80%;
+    height: 8%;
+    background-color: rgb(29, 28, 28);
+    border-radius: 15px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.logo1 {
+    width: 60%;
+    height: 35%;
+    border: 3px solid white;
+    margin-top: 15px;
+}
+
+.songname1 {
+    font-size: 30px;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    height: 25%;
+    margin-top: 55px;
+}
+
+.button1 {
+    background: url(back.webp);
+    width: 33%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+
+.button2 {
+    background: url(pause.webp);
+    width: 34%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+
+.button3 {
+    background: url(straight.webp);
+    width: 33%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+}
+
+.heart {
+    width: 40px;
+    height: 40px;
+    background: url(notheart.webp);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.heart1 {
+    width: 40px;
+    height: 40px;
+    background: url(heart.webp);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.special {
+    width: 40px;
+    height: 40px;
+    background: url(notstar.webp);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.special1 {
+    width: 40px;
+    height: 40px;
+    background: url(star.webp);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.osnova {
+    width: 50px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    margin-right: 125px;
+}
+
+.burgerline1 {
+    width: 70%;
+    height: 4px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 13px;
+}
+
+.burgerline2 {
+    width: 70%;
+    height: 4px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.burgerline3 {
+    width: 70%;
+    height: 4px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.Home1 {
+    width: 85%;
+    height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 12px;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
